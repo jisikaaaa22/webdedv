@@ -1,0 +1,75 @@
+{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9E0E0; /* Soft pink background */
+}
+
+header {
+    background-color: #FF66B2; /* Soft pinkish-purple */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FF3385; /* A deeper pink border for emphasis */
+    border-radius: 0 0 20px 20px; /* Rounded corners at the bottom */
+}
+
+nav {
+    background-color: #FF3385; /* Darker pink background for navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px; /* Rounded corners for the links */
+    margin: 0 10px; /* Space between the links */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #FF80BF; /* Lighter pink on hover */
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+section {
+    flex: 3;
+    background-color: #FFF0F6; /* Very light pink for the main content */
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    flex: 1;
+    background-color: #FDE2F2; /* Soft pink for the sidebar */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #FF3385; /* Dark pink background for footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    border-top: 5px solid #FF66B2; /* Lighter pink border at the top */
+    border-radius: 20px 20px 0 0; /* Rounded corners at the top */
+}
